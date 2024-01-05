@@ -1,0 +1,128 @@
+.btn-primary {
+  background-color: #d43f3a !important;
+  border-color: #d43f3a !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #d60129 !important;
+  border-color: #d60129 !important;
+}
+
+.text-danger {
+  color: #d60129 !important;
+  font-size: 10px;
+  display: flex;
+}
+
+.col-append {
+  position: absolute;
+  right: 16px;
+  top: 35%;
+  transform: translateY(-40%);
+}
+
+.bt-custom {
+  border-radius: 5px;
+  padding: 6px;
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  background-color: #d60129;
+  color: white;
+}
+
+.bt-color {
+  width: 20%;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  background-color: #d60129;
+  color: white;
+}
+
+/*bootstrap-float-label.css*/
+
+.has-float-label {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.has-float-label label, .has-float-label > span {
+  position: absolute;
+  cursor: text;
+  font-size: 80%;
+  opacity: 1;
+  transition: all 0.2s;
+  top: -0.5em;
+  left: 0.75rem;
+  z-index: 3;
+  line-height: 1;
+  padding: 0 3px;
+  background: #fff;
+  font-weight: normal;
+}
+
+.has-float-label > span {
+  /*For select2-bootstrap dropdown set top,left margin 0*/
+  top: 0;
+  left: 0;
+}
+
+.has-float-label label::after, .has-float-label > span::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: #fff;
+  height: 2px;
+  top: 50%;
+  left: -0.2em;
+  right: -0.2em;
+  z-index: -1;
+}
+
+.has-float-label .form-control::placeholder {
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)::placeholder {
+  opacity: 0;
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus) + * {
+  font-size: 100%;
+  color: #6c757d;
+  opacity: 1;
+  top: 0.3em;
+}
+
+.input-group .has-float-label {
+  flex-grow: 1;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus) + * {
+  margin-top: 6px;
+}
+
+/*pass_show*/
+
+.ptxt {
+  color: #3366cc;
+  float: right !important;
+  font-size: 15px !important;
+  left: auto !important;
+  background: transparent !important;
+  position: absolute;
+  cursor: pointer !important;
+  top: 30% !important;
+  right: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map*/
